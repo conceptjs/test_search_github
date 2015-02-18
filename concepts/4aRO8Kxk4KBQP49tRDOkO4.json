@@ -1,0 +1,48 @@
+{
+  "uri" : "local://4aRO8Kxk4KBQP49tRDOkO4/",
+  "name" : "test_search_github (Repository)",
+  "category" : "",
+  "pname" : "Folder",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "folderName",
+    "expr" : {
+      "str" : "test_search_github"
+    }
+  }, {
+    "name" : "_folder_description",
+    "expr" : {
+      "str" : "Double-click here, or click the Edit button on the top-left, to edit the description",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "folder",
+    "expr" : {
+      "concept" : "/common/core/wsKVkUn9bNAX_qlv_2Nvm6/",
+      "bindings" : {
+        "name" : "folderName",
+        "description" : "_folder_description"
+      }
+    }
+  }, {
+    "name" : "_repo_holder",
+    "expr" : {
+      "str" : ""
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "bindings" : {
+        "holder" : "_repo_holder"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "folder"
+  }, {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}

@@ -1,0 +1,32 @@
+{
+  "uri" : "local://ZBT7JEt2oC8Jw43rIhSDZ6/",
+  "name" : "test search github lambda",
+  "category" : "",
+  "parent" : "local://4aRO8Kxk4KBQP49tRDOkO4/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "prop1",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "prop2",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/"
+  } ],
+  "vars" : [ {
+    "name" : "_index_type",
+    "expr" : {
+      "concept" : "local://dyHFoSastaB_nKNJGbW6h1/"
+    }
+  }, {
+    "name" : "index",
+    "expr" : {
+      "concept" : "/common/core/0mSE4ISzLM8fkKj3BVBy7A/",
+      "bindings" : {
+        "type" : "_index_type"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "index"
+  } ],
+  "isLambda" : true
+}

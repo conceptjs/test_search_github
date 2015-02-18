@@ -1,0 +1,34 @@
+{
+  "uri" : "local://iN3fnhvVz1AynaIKjuj3p5/",
+  "name" : "test conc2",
+  "category" : "",
+  "parent" : "local://4aRO8Kxk4KBQP49tRDOkO4/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_testSearch_prop1",
+    "expr" : {
+      "str" : "value3",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_testSearch_prop2",
+    "expr" : {
+      "str" : "value4",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "testSearch",
+    "expr" : {
+      "concept" : "local://ZBT7JEt2oC8Jw43rIhSDZ6/",
+      "bindings" : {
+        "prop1" : "_testSearch_prop1",
+        "prop2" : "_testSearch_prop2"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "testSearch"
+  } ],
+  "isLambda" : false
+}
